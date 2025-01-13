@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+
       backgroundImage: {
         'custom-navbar-gradient': 'linear-gradient(266.37deg, #23647F -20.37%, #1E1E1E 13.11%, #1E1E1E 81.78%, #21414E 115.55%)',
         'custom-hero-section-gradient': 'linear-gradient(266.37deg, #23647F -20.37%,rgb(15, 15, 15) 13.11%,rgb(14, 13, 13) 81.78%, #21414E 115.55%)',

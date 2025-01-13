@@ -95,7 +95,7 @@ const Home = () => {
 
 
       {/* incorp sec */}
-      <section className='w-full h-[100dvh]  px-4 py-2  flex flex-col gap-4 md:grid md:grid-cols-[2fr_3fr] mt-4 mb-[400px] md:mb-0 md:mt-20'>
+      <section className='w-full h-full px-4 py-2  flex flex-col gap-4 md:grid md:grid-cols-[2fr_3fr] mt-4 mb-4 md:mb-0 md:mt-20 '>
       <div className='w-full h-full flex flex-col justify-center items-center md:px-10  '>
       <div className='w-full h-auto'>
            <div className='w-[80px] h-[80px] p-2 rounded-[50%] bg-gray-200 text-[#29ABE2] group-hover:bg-[#29ABE2] group-hover:text-gray-200 hover:cursor-pointer flex justify-center items-center'>
@@ -110,7 +110,7 @@ const Home = () => {
 
 </p>
            <div className='w-full text-start mt-4 text-[#29ABE2] text-lg'>
-           <button className='hover:border hover:border-white hover:text-white hover:px-2 hover:py-1 rounded active:scale-[0.9] transition-transform duration-300' >Learn  More <span><FaLongArrowAltRight className='inline ml-1' /></span> </button>
+           <button className='px-2 py-1 hover:bg-[#29ABE2] hover:text-white  rounded active:scale-[0.9] transition-transform duration-300' >Learn  More <span><FaLongArrowAltRight className='inline ml-1' /></span> </button>
         </div>      
       </div>
       <div className='w-full h-full  flex flex-col gap-4'>

@@ -60,8 +60,8 @@ const MenuLists = ({ isMobile = true }) => {
            <DropdownMenu
              menuItems={serviceMenuItems}
              isOpen={activeDropdown === "services"}
-             position="-right-20 top-full"
-             customWidth="w-[60dvw]"
+             position="-right-28 top-full"
+             customWidth="w-[calc(320%)]"
            />
          
           :  <DropdownMenu
@@ -106,8 +106,8 @@ const MenuLists = ({ isMobile = true }) => {
            <DropdownMenu
              menuItems={serviceMenuItems}
              isOpen={activeDropdown === "domains"}
-             position="-right-20 top-full"
-             customWidth="w-[60dvw]"
+            position="-right-28 top-full"
+             customWidth="w-[calc(320%)]"
            />
          
           : <DropdownMenu
@@ -150,8 +150,8 @@ const MenuLists = ({ isMobile = true }) => {
            <DropdownMenu
              menuItems={serviceMenuItems}
              isOpen={activeDropdown === "about"}
-             position="-right-20 top-full"
-             customWidth="w-[60dvw]"
+             position="-right-32 top-full"
+             customWidth="w-[calc(425%)]"
            />
          
           : <DropdownMenu

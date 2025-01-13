@@ -25,7 +25,7 @@ const DropdownMenu = ({ menuItems ,isOpen= false,position="left-0 top-full" , cu
             exit="exit"
             variants={dropdownVariants}
           >
-            <ul className="w-full ">
+            <ul className="w-full overflow-x-hidden border border-gray-100">
               {menuItems.map((item, index) => (
                 <li key={index}
                 className="even:bg-[#f7fdff]"
@@ -38,8 +38,8 @@ const DropdownMenu = ({ menuItems ,isOpen= false,position="left-0 top-full" , cu
                     {item.icon? <div className="w-[40px] h-[40px] bg-gray-100 group-hover:bg-[#29ABE2] flex justify-center items-center rounded-[50%] flex-shrink-0 group-hover:text-white">{item.icon}</div>: <div className="w-[40px] h-[40px] bg-gray-100 group-hover:bg-[#29ABE2] flex justify-center items-center rounded-[50%] flex-shrink-0"><FaGlobeAmericas className="text-[#29ABE2] text-xl group-hover:text-white" />
                       </div> }
                     <div>
-                    <h3 className="text-gray-700 group-hover:text-[#29ABE2]">{item.label}</h3>
-                    <p className="text-sm mt-2">{item.paragraph}</p>
+                    <h3 className="text-gray-700 text-lg  group-hover:text-[#29ABE2]">{item.label}</h3>
+                    <p className="text-sm mt-1 md:mt-2">{item.paragraph}</p>
                     </div>
                     </div>
                     
